@@ -1,0 +1,93 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.name label{
+    margin-top: 5px;
+    display: block;
+}
+
+.name input{
+    margin-top: 5px;
+    align-items: center;
+    padding: 10px;
+}
+
+.email label{
+    display: block;
+    margin-top: 15px;
+}
+
+.email input{
+    display: block;
+    margin-top:10px;
+    width: 365px;
+    padding: 10px;
+}
+
+.cname label{
+    display: block;
+    margin-top: 15px;
+}
+
+.cname input{
+    display: block;
+    margin-top: 5px;
+    width: 365px;
+    padding: 10px;
+}
+
+.csite label{
+    display: block;
+    margin-top: 15px;
+}
+.csite input{
+    display: block;
+    margin-top: 5px;
+    width: 365px;
+    padding: 10px;
+}
+
+.adress label{
+    display: block;
+    margin-top: 15px;
+}
+
+.adressmid input{
+    display: block;
+    margin-top: 10px;
+    width: 365px;
+    padding: 10px;
+}
+
+.adressfirstline input{
+    display: inline;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.adresssecondline input{
+    display: inline;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.adresssecondline select{
+    padding: 10px;
+    width: 193px;
+    
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+    width: 390px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
+    

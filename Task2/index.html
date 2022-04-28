@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Webinar Registration</h1>
+    <div>
+        <form action="" method="get">
+            <div class="name">
+                
+                    <label>Name:</label>
+                    <input type="text" placeholder="First Name" id="firstname" required>
+            
+                    <input type="text" placeholder="Last Name" id="lastname" required>
+            </div>    
+
+             <div class="email">
+                <label>Email:</label>
+                <input type="email" placeholder="jack@example.com" required>
+            </div>
+
+            <div class="cname">
+                <label>Company Name:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="csite">
+                <label>Company Website:</label>
+                <input type="url" placeholder="http://example.com" required>
+            </div>
+
+            <div class="adress">
+                <label>Adress:</label>
+                <div class="adressmid">
+                    <input type="text" placeholder="Street Adress">
+                    <input type="text" placeholder="Apartment,suite,etc">
+                </div>
+                
+                <div class="adressfirstline">
+                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="State">
+                </div>
+                
+                <div class="adresssecondline">
+                    <input type="number" placeholder="Postal Code">
+                    <select name="country">
+                        <option disabled selected hidden>Select the Country</option>
+                        <option>United States of America</option>
+                        <option>Canada</option>
+                        <option>United Kingdom</option>
+                        <option>Germany</option>
+                        <option>France</option>
+                    </select>   
+                </div>
+            </div>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
